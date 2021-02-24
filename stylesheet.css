@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/*moible first*/
+/*grid*/
+
+.grid-container {
+  display: block;
+  grid-template-areas:
+    "header"
+    "introduction"
+    "breadcrumbs"
+    "phases"
+    "animations"
+    "footer";
+  grid-row-gap: 0px;
+}
+.header {
+  grid-area: header;
+  background-color: midnightblue;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.introduction {
+  grid-area: introduction;
+  background-color: yellow;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.breadcrumbs {
+  grid-area: breadcrumbs;
+  background-color: violet;
+  height: 15vh;
+}
+.phases {
+  grid-area: phases;
+  background-color: purple;
+  height: 85vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.animations {
+  grid-area: animations;
+  background-color: wheat;
+  height: 85vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.footer {
+  grid-area: footer;
+  background-color: black;
+  height: 20vh;
+}
+/*tablet size*/
+@media screen and (min-width: 768px) {
+  /*grid*/
+  .grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+      "header header"
+      "introduction introduction"
+      "breadcrumbs breadcrumbs"
+      "phases animations"
+      "phases animations"
+      "footer footer";
+    grid-row-gap: 0px;
+  }
+}
+
+/*desktop size*/
+
+@media screen and (min-width: 1024px) {
+  /*grid desktop*/
+  .grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+      "header header"
+      "introduction introduction"
+      "breadcrumbs breadcrumbs"
+      "phases animations"
+      "phases animations"
+      "footer footer";
+    grid-row-gap: 0px;
+  }
+}
