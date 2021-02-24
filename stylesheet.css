@@ -17,6 +17,7 @@
     "footer";
   grid-row-gap: 0px;
 }
+
 .header {
   grid-area: header;
   background-color: midnightblue;
@@ -40,10 +41,19 @@
   background-color: violet;
   height: 15vh;
 }
+.breadcrumbs ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  text-align: center;
+}
+.crumb-link {
+  vertical-align: middle;
+}
 .phases {
   grid-area: phases;
   background-color: purple;
-  height: 85vh;
+  height: 90vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -52,7 +62,7 @@
 .animations {
   grid-area: animations;
   background-color: wheat;
-  height: 85vh;
+  height: 90vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -95,5 +105,14 @@
       "phases animations"
       "footer footer";
     grid-row-gap: 0px;
+  }
+  .breadcrumbs ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    text-align: center;
+  }
+  .crumb-link {
+    vertical-align: middle;
   }
 }
