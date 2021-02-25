@@ -5,6 +5,28 @@
 }
 /*moible first*/
 /*grid*/
+body{
+  color: #000;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: normal;
+  font-family: "Roboto Mono", monospace;
+  letter-spacing: -0.013em;
+}
+h1 {
+   color: #515f6d;
+   font-weight: 700;
+   font-size: 40px;
+}
+h2 {
+   margin-bottom: 20px;
+   color: #515f6d;
+   font-weight: 400;
+   font-size: 22px;
+}
+
+
+
 
 .grid-container {
   display: block;
@@ -20,13 +42,26 @@
 
 .header {
   grid-area: header;
-  background-color: midnightblue;
   height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-image: url("img/high-five-scaled.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
+.header h1,h2 {
+  color: #fff;
+}
+.menu{
+  z-index: 999;
+  position: fixed;
+  right: 0;
+  margin: 40px 40px 0 0;
+}
+
+
 .introduction {
   grid-area: introduction;
   background-color: yellow;
@@ -70,9 +105,13 @@
 }
 .footer {
   grid-area: footer;
-  background-color: black;
-  height: 20vh;
 }
+.footer img{
+  width: 100%;
+  height: auto;
+}
+
+
 /*tablet size*/
 @media screen and (min-width: 768px) {
   /*grid*/
@@ -111,7 +150,11 @@
     list-style: none;
     justify-content: space-around;
     text-align: center;
+    font-size: 30px;
+
   }
+
+
   .crumb-link {
     vertical-align: middle;
   }
