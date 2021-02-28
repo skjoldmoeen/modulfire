@@ -12,7 +12,9 @@ nextBtn.addEventListener('click', () => {
         currentBullet.classList.add('completed');
         currentStep++;
         previousBtn.disabled = false;
-
+if (currentStep === 6){
+    nextBtn.disabled = true;
+}
     });
 
 previousBtn.addEventListener('click', () => {
