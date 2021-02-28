@@ -54,17 +54,33 @@
                 </div>
             </div>
         </div>
-        
+
     </div>
     </div>
 
     <div class="phases">
-      <p id="content">Fase 01</p>
-            <button id="previousBtn" disabled >Tilbage</button>
-            <button id="nextBtn">Videre</button>
-      <h2>fase X</h2>
-
+      <div class="slides bg-green">
+        <h1>Fase 1</h1>
+      </div>
+      <div class="slides bg-orange">
+        <h1>Fase 2</h1>
+      </div>
+      <div class="slides bg-purple">
+        <h1>Fase 3</h1>
+      </div>
+      <div class="slides bg-blue">
+        <h1>Fase 4</h1>
+      </div>
+      <div class="slides bg-red">
+        <h1>Fase 5</h1>
+      </div>
+      <div class="slides bg-green">
+        <h1>Kontakt</h1>
+      </div>
+        <button id="previousBtn" disabled onclick="plusSlides(-1)"> Tilbage</button>
+        <button id="nextBtn" onclick="plusSlides(1)">Videre</button>
     </div>
+
     <div class="animations">
       <h2>Hus animation</h2>
 
@@ -75,5 +91,6 @@
   </div>
 
 <script src="app.js"></script>
+<script src="slider.js"charset="utf-8"></script>
   </body>
 </html>
