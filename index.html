@@ -21,17 +21,47 @@
       <h2>Hvad er et afklaringsforløb?</h2>
     </div>
     <div class="breadcrumbs">
-      <ul class="order">
-      <li><a class="crumb-link" href="">01</a></li>
-      <li><a class="crumb-link" href="">02</a></li>
-      <li><a class="crumb-link" href="">03</a></li>
-      <li><a class="crumb-link" href="">04</a></li>
-      <li><a class="crumb-link" href="">05</a></li>
-      <li><a class="crumb-link" href="">kontakt</a></li>
-      </ul>
+      <div class="phase-container">
+        <div id="stepProgressBar">
+            <div class="step">
+                <div class="bullet green"> 01
+
+                </div>
+            </div>
+            <div class="step">
+                <div class="bullet orange"> 02
+
+                </div>
+            </div>
+            <div class="step">
+                <div class="bullet purple"> 03
+
+                </div>
+            </div>
+            <div class="step">
+                <div class="bullet blue"> 04
+
+                </div>
+            </div>
+            <div class="step">
+                <div class="bullet red"> 05
+
+                </div>
+            </div>
+            <div class="step">
+                <div class="bullet green"> 00
+
+                </div>
+            </div>
+        </div>
+        
+    </div>
     </div>
 
     <div class="phases">
+      <p id="content">Fase 01</p>
+            <button id="previousBtn" disabled >Tilbage</button>
+            <button id="nextBtn">Videre</button>
       <h2>fase X</h2>
 
     </div>
@@ -44,6 +74,6 @@
     </div>
   </div>
 
-<script src="java.js"></script>
+<script src="app.js"></script>
   </body>
 </html>
