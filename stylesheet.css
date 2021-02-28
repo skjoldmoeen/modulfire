@@ -90,10 +90,10 @@ button {
   display: flex;
   bottom: 10%;
 }
-#nextBtn{
-  right: 30%
+#nextBtn {
+  right: 30%;
 }
-#previousBtn{
+#previousBtn {
   left: 30%;
 }
 button:hover {
@@ -101,10 +101,9 @@ button:hover {
   background-color: white;
   color: #a5bb75;
 }
-button:disabled:hover {
-  cursor: not-allowed;
+button:disabled {
+  display: none;
 }
-
 
 .phase-container {
   grid-area: breadcrumbs;
@@ -162,11 +161,10 @@ button:disabled:hover {
   border-bottom: 6px solid #d7734a;
 }
 
-
-.bg-green{
+.bg-green {
   background-color: #a5bb75;
 }
-.bg-orange{
+.bg-orange {
   background-color: #d8a55a;
 }
 
@@ -176,7 +174,7 @@ button:disabled:hover {
 .bg-blue {
   background-color: #6696ac;
 }
-.bg-red{
+.bg-red {
   background-color: #d7734a;
 }
 
@@ -194,9 +192,6 @@ button:disabled:hover {
   width: 100%;
   text-align: center;
 }
-
-
-
 
 .animations {
   grid-area: animations;
