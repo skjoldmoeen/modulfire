@@ -64,13 +64,22 @@ h2 {
   height: 100vh;
   display: flex;
   background-image: url("img/bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-.introduction-text{
+.introduction-container{
+  padding: 60px;
   grid-area: introduction;
-
+  flex-direction: column;
   height: 100vh;
   display: flex;
   width: 50%;
+}
+.introduction-text{
+  width: 70%;
+}
+.introduction-text h1{
+  margin-bottom: 30px;
 }
 .hidden {
   display: none;
