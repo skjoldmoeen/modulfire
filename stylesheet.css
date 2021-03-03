@@ -71,6 +71,17 @@ h2 {
 .hidden {
   display: none;
 }
+
+.scrollbutton{
+  background-color: transparent;
+  background-repeat: space;
+ border: none;
+ cursor:pointer;
+ overflow: hidden;
+ font-family: roboto-mono, monospace;
+ outline: none;
+}
+
 button {
   width: 140px;
   text-align: center;
