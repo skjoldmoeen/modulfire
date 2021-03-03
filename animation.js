@@ -1,4 +1,3 @@
-// Hus Animation
 var slideIndex = 1; 
 showSlides(slideIndex)
 
@@ -12,17 +11,15 @@ function currentSlide(n) {
 
 function showSlides(n) {
   var i;
-  var slides = document.getElementsByClassName("myHouse")
-  if (n > slides.length) {
+  var animation = document.getElementsByClassName("myHouse")
+  if (n > animation.length) {
     slideIndex = 1
   }
   if (n < 1) {
-    slideIndex = slides.length
+    slideIndex = animation.length
   }
-  for (i = 0; i < slides.length; i++) {
-    slides[i],style.display = "none"
+  for (i = 0; i < animation.length; i++) {
+    animation[i],style.display = "none"
   }
-  slides[slideIndex-1].style.display = "block";
-  
-
+  animation[slideIndex-1].style.display = "block";
 }
