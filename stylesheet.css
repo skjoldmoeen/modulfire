@@ -141,38 +141,41 @@ button:disabled {
 }
 .bullet {
   height: 25;
-  width: 30px;
-  border-bottom: 6px solid #9c9c9c;
+  width: 45px;
+  border-bottom: 9px solid #9c9c9c;
   color: #9c9c9c;
   font-family: roboto-mono, monospace;
   font-weight: 700;
   font-style: normal;
-  font-size: x-large;
+  font-size: 40px;
   display: inline-block;
   position: relative;
   transform: background-color 500ms;
   line-height: 30px;
+  padding-bottom: 7px;
+  margin-left: 15px;
+  margin-right: 158px;
 }
 
 .bullet.completed {
-  border-bottom: 6px solid #13798b;
+  border-bottom: 9px solid #13798b;
 }
 
 .green.completed {
-  border-bottom: 6px solid #a5bb75;
+  border-bottom: 9px solid #a5bb75;
 }
 .orange.completed {
-  border-bottom: 6px solid #d8a55a;
+  border-bottom: 9px solid #d8a55a;
 }
 
 .purple.completed {
-  border-bottom: 6px solid #aa81ac;
+  border-bottom: 9px solid #aa81ac;
 }
 .blue.completed {
-  border-bottom: 6px solid #6696ac;
+  border-bottom: 9px solid #6696ac;
 }
 .red.completed {
-  border-bottom: 6px solid #d7734a;
+  border-bottom: 9px solid #d7734a;
 }
 
 .bg-green {
