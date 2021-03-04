@@ -65,7 +65,7 @@ h2 {
 
 .introduction {
   grid-area: introduction;
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
   background-image: url("img/bg.png");
   background-repeat: no-repeat;
@@ -76,12 +76,11 @@ h2 {
   padding: 40px;
   grid-area: introduction;
   flex-direction: column;
-  height: 100vh;
   display: flex;
   width: 50%;
 }
 .introduction-text {
-  width: 80%;
+  width: 70%;
   margin-bottom: 30px;
 }
 .introduction-text h1 {
