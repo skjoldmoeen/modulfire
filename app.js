@@ -3,8 +3,8 @@ const nextBtn = document.getElementById('nextBtn');
 
 const  bullets = [...document.querySelectorAll('.bullet')];
 
-const MAX_STEPS = 6;
-let currentStep = 1;
+const MAX_STEPS = 7;
+let currentStep = 2;
 
 
 nextBtn.addEventListener('click', () => {
@@ -12,7 +12,7 @@ nextBtn.addEventListener('click', () => {
         currentBullet.classList.add('completed');
         currentStep++;
         previousBtn.disabled = false;
-if (currentStep === 6){
+if (currentStep === 7){
     nextBtn.disabled = true;
 }
     });
