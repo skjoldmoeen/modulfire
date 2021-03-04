@@ -116,11 +116,11 @@ h2 {
 }
 
 #previousBtn {
-  left: 30%;
+  left: 20%;
 }
 
 #nextBtn {
-  right: 30%;
+  right: 20%;
 }
 .fremogtilbage:hover {
   cursor: pointer;
@@ -210,6 +210,7 @@ h2 {
 .phases {
   grid-area: phases;
   height: 85vh;
+  width: 42vw;
   display: flex;
   position: relative;
   background: purple;
@@ -243,7 +244,7 @@ h2 {
 
 .animations {
   grid-area: animations;
-
+  width: 42vw;
   background-color: white;
   height: 85vh;
   display: flex;
