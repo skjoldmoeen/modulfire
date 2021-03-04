@@ -244,7 +244,7 @@ h2 {
 
 .animations {
   grid-area: animations;
-  width: 42vw;
+  width: 60%;
   background-color: white;
   height: 85vh;
   display: flex;
