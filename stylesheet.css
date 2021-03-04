@@ -67,7 +67,7 @@ h2 {
   background-repeat: no-repeat;
   background-size: cover;
 }
-.introduction-container{
+.introduction-container {
   padding: 60px;
   grid-area: introduction;
   flex-direction: column;
@@ -75,24 +75,24 @@ h2 {
   display: flex;
   width: 50%;
 }
-.introduction-text{
+.introduction-text {
   width: 70%;
 }
-.introduction-text h1{
+.introduction-text h1 {
   margin-bottom: 30px;
 }
 .hidden {
   display: none;
 }
 
-.scrollbutton{
+.scrollbutton {
   background-color: transparent;
   background-repeat: space;
- border: none;
- cursor:pointer;
- overflow: hidden;
- font-family: roboto-mono, monospace;
- outline: none;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  font-family: roboto-mono, monospace;
+  outline: none;
 }
 
 button {
@@ -110,9 +110,9 @@ button {
   outline: none;
   height: 50px;
   position: absolute;
-  bottom: 0;
   display: flex;
   bottom: 10%;
+  justify-content: center;
 }
 #nextBtn {
   right: 30%;
@@ -135,8 +135,6 @@ button:disabled {
   height: 15vh;
   margin-bottom: 20px;
 }
-
-
 
 #stepProgressBar {
   display: flex;
@@ -214,25 +212,24 @@ button:disabled {
   position: relative;
   background: purple;
 }
-.phases h1{
+.phases h1 {
   color: #fff;
   text-align: right;
   font-size: 60px;
-  margin: 60px 60px 0 0;
+  margin: 20px 25px 0 0;
 }
-.phases h2{
+.phases h2 {
   color: #fff;
   text-align: right;
   font-size: 30px;
-  margin-right: 60px;
+  margin-right: 30px;
   font-weight: 800;
 }
-.phases p{
+.phases p {
   color: #fff;
   margin: 60px;
   text-align: left;
 }
-
 
 .slides {
   grid-area: phases;
@@ -244,7 +241,7 @@ button:disabled {
 
 .animations {
   grid-area: animations;
-  background-color: wheat;
+  background-color: white;
   height: 85vh;
   display: flex;
   flex-direction: column;
