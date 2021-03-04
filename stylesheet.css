@@ -163,7 +163,7 @@ h2 {
   text-align: center;
 }
 .bullet {
-  height: 25;
+  height: 25%;
   width: 45px;
   border-bottom: 9px solid #9c9c9c;
   color: #9c9c9c;
@@ -271,8 +271,6 @@ h2 {
 
 /*Fading animation*/
 .fade {
-  -webkit-animation-name: fade;
-  -webkit-animaiton-duration: 0.5s;
   animation-name: fade;
   animation-duration: 0.5s;
 }
@@ -370,3 +368,4 @@ body input[type='submit'] {
       "footer footer";
     grid-row-gap: 0px;
   }
+}
