@@ -61,12 +61,25 @@ h2 {
 
 .introduction {
   grid-area: introduction;
-  background-color: yellow;
   height: 100vh;
   display: flex;
+  background-image: url("img/bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.introduction-container {
+  padding: 60px;
+  grid-area: introduction;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  height: 100vh;
+  display: flex;
+  width: 50%;
+}
+.introduction-text {
+  width: 70%;
+}
+.introduction-text h1 {
+  margin-bottom: 30px;
 }
 .hidden {
   display: none;
@@ -119,11 +132,8 @@ button:disabled {
 .phase-container {
   grid-area: breadcrumbs;
   max-width: 700px;
-  margin: 20px auto 0 auto;
-  padding: 40px;
+  height: 15vh;
 }
-
-
 
 #stepProgressBar {
   display: flex;
@@ -140,38 +150,41 @@ button:disabled {
 }
 .bullet {
   height: 25;
-  width: 30px;
-  border-bottom: 6px solid #9c9c9c;
+  width: 45px;
+  border-bottom: 9px solid #9c9c9c;
   color: #9c9c9c;
   font-family: roboto-mono, monospace;
   font-weight: 700;
   font-style: normal;
-  font-size: x-large;
+  font-size: 40px;
   display: inline-block;
   position: relative;
   transform: background-color 500ms;
   line-height: 30px;
+  padding-bottom: 7px;
+  margin-left: 15px;
+  margin-right: 158px;
 }
 
 .bullet.completed {
-  border-bottom: 6px solid #13798b;
+  border-bottom: 9px solid #13798b;
 }
 
 .green.completed {
-  border-bottom: 6px solid #a5bb75;
+  border-bottom: 9px solid #a5bb75;
 }
 .orange.completed {
-  border-bottom: 6px solid #d8a55a;
+  border-bottom: 9px solid #d8a55a;
 }
 
 .purple.completed {
-  border-bottom: 6px solid #aa81ac;
+  border-bottom: 8px solid #aa81ac;
 }
 .blue.completed {
-  border-bottom: 6px solid #6696ac;
+  border-bottom: 9px solid #6696ac;
 }
 .red.completed {
-  border-bottom: 6px solid #d7734a;
+  border-bottom: 9px solid #d7734a;
 }
 
 .bg-green {
@@ -193,35 +206,34 @@ button:disabled {
 
 .phases {
   grid-area: phases;
-  height: 90vh;
+  height: 85vh;
   display: flex;
   position: relative;
   background: purple;
 }
-.phases h1{
+.phases h1 {
   color: #fff;
   text-align: right;
   font-size: 60px;
   margin: 60px 60px 0 0;
 }
-.phases h2{
+.phases h2 {
   color: #fff;
   text-align: right;
   font-size: 30px;
   margin-right: 60px;
   font-weight: 800;
 }
-.phases p{
+.phases p {
   color: #fff;
   margin: 60px;
   text-align: left;
 }
 
-
 .slides {
   grid-area: phases;
   display: none;
-  height: 90vh;
+  height: 85vh;
   width: 100%;
   text-align: center;
 }
@@ -229,7 +241,7 @@ button:disabled {
 .animations {
   grid-area: animations;
   background-color: wheat;
-  height: 90vh;
+  height: 85vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -275,16 +287,5 @@ button:disabled {
       "phases animations"
       "footer footer";
     grid-row-gap: 0px;
-  }
-  .breadcrumbs ul {
-    display: flex;
-    list-style: none;
-    justify-content: space-around;
-    text-align: center;
-    font-size: 30px;
-  }
-
-  .crumb-link {
-    vertical-align: middle;
   }
 }
