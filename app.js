@@ -22,7 +22,7 @@ previousBtn.addEventListener('click', () => {
     previousBullet.classList.remove('completed');
     currentStep--;
     nextBtn.disabled = false;
-    if (currentStep === 1){
+    if (currentStep === 2){
         previousBtn.disabled = true;
     }
     

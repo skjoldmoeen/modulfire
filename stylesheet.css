@@ -95,8 +95,7 @@ h2 {
   outline: none;
 }
 
-#nextBtn {
-  right: 30%;
+.fremogtilbage {
   width: 140px;
   text-align: center;
   padding: 15px;
@@ -115,34 +114,20 @@ h2 {
   bottom: 10%;
   justify-content: center;
 }
+
 #previousBtn {
   left: 30%;
-  width: 140px;
-  text-align: center;
-  padding: 15px;
-  border: 3px solid white;
-  transition: 300ms background-color;
-  color: white;
-  background-color: transparent;
-  font-family: roboto-mono, monospace;
-  font-weight: 600;
-  font-size: 16px;
-  font-style: normal;
-  outline: none;
-  height: 50px;
-  position: absolute;
-  display: flex;
-  bottom: 10%;
-  justify-content: center;
 }
-#previousBtn,
-#nextBtn:hover {
+
+#nextBtn {
+  right: 30%;
+}
+.fremogtilbage:hover {
   cursor: pointer;
   background-color: white;
   color: #a5bb75;
 }
-#previousBtn,
-#nextBtn:disabled {
+.fremogtilbage:disabled {
   display: none;
 }
 
