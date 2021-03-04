@@ -305,10 +305,12 @@ h2 {
 
 .contact{
   width: 450px;
+  margin-top: -40px;
+  margin-left: 69px;
 }
 
 input {
-  border: solid #515f6d 2px;
+  border: solid #515f6d; 2px;
   padding: 15px 0 15px 15px;
   margin-top: 10px;
   font-size: 14px;
@@ -317,21 +319,21 @@ input {
 }
 
 textarea {
-  border: solid #515f6d 2px;
+  border: solid #515f6d; 2px;
   padding: 15px 0 15px 15px;
   margin-top: 10px;
   font-size: 14px;
-  height: 150px;
+  height: 100px;
   width: 100%;
     font-family: "Roboto Mono", monospace;
 }
 
-body .cf7-style.cf7-style-3647 input[type='submit'] {
+body input[type='submit'] {
   color: #ffffff;
   font-weight: 600;
   background: #A5BB75;
-  width: 105%;
-  border: 0;
+  width: 100%;
+  border: solid #ffffff; 2px;
     font-family: "Roboto Mono", monospace;
 }
 
