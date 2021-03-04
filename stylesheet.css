@@ -303,6 +303,7 @@ h2 {
   height: auto;
 }
 
+/*kontaktformular*/
 .contact{
   width: 450px;
   margin-top: -40px;
@@ -328,7 +329,7 @@ textarea {
     font-family: "Roboto Mono", monospace;
 }
 
-body input[type='submit'] {
+input[type='submit'] {
   color: #ffffff;
   font-weight: 600;
   background: #A5BB75;
