@@ -122,6 +122,7 @@ button:disabled {
   grid-area: breadcrumbs;
   max-width: 700px;
   height: 15vh;
+  margin-bottom: 20px;
 }
 
 
