@@ -244,6 +244,10 @@ button:disabled {
 
 .animations {
   grid-area: animations;
+<<<<<<< Updated upstream
+=======
+  background-color:;
+>>>>>>> Stashed changes
   height: 85vh;
   display: flex;
   flex-direction: column;
@@ -251,6 +255,7 @@ button:disabled {
   align-items: center;
 }
 
+<<<<<<< Updated upstream
 /*Hide the images by default*/
 .myHouse {
   display: none;
@@ -335,6 +340,10 @@ button:disabled {
 @keyframes fade {
   from {opacity: .4}
   to {opacity: 1}
+=======
+.house {
+  
+>>>>>>> Stashed changes
 }
 .footer {
   grid-area: footer;
