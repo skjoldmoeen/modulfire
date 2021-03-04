@@ -258,6 +258,7 @@ h2 {
 
 .animations {
   grid-area: animations;
+
   background-color: white;
   height: 85vh;
   display: flex;
@@ -362,6 +363,7 @@ h2 {
     opacity: 1;
   }
 }
+
 .footer {
   grid-area: footer;
 }
