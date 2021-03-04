@@ -200,6 +200,9 @@ h2 {
 .red.completed {
   border-bottom: 9px solid #d7734a;
 }
+.go {
+  width: 60px;
+}
 
 .bg-green {
   background-color: #a5bb75;
@@ -313,7 +316,7 @@ input {
   margin-top: 10px;
   font-size: 14px;
   width: 100%;
-    font-family: "Roboto Mono", monospace;
+  font-family: "Roboto Mono", monospace;
 }
 
 textarea {
