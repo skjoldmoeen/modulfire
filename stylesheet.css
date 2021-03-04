@@ -48,8 +48,11 @@ h2 {
   background-repeat: no-repeat;
   background-size: cover;
 }
-.header h1,
-h2 {
+.header a{
+  color: #fff;
+  text-decoration: none;
+}
+.header h1, h2 {
   color: #fff;
 }
 .menu {
