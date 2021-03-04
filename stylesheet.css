@@ -73,13 +73,6 @@ h2 {
   background-size: cover;
 }
 
-.introduction a {
-  color: #515f6d;
-  text-decoration: none;
-  margin-left: 50%;
-  margin-right: 50%;
-}
-
 .introduction-container {
   padding: 60px;
   grid-area: introduction;
@@ -101,10 +94,7 @@ h2 {
 .hidden {
   display: none;
 }
-.centerscroll {
-  grid-area: scrollbtn;
-  height: 10vh;
-}
+
 .scrollbutton {
   background-color: transparent;
   background-repeat: space;
@@ -115,8 +105,6 @@ h2 {
   outline: none;
   position: relative;
   bottom: -40%;
-  margin-left: 50%;
-  margin-right: 50%;
 }
 
 .fremogtilbage {
