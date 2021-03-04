@@ -30,7 +30,6 @@ h2 {
   grid-template-areas:
     "header"
     "introduction"
-    "scrollbtn"
     "breadcrumbs"
     "phases"
     "animations"
@@ -66,7 +65,7 @@ h2 {
 
 .introduction {
   grid-area: introduction;
-  height: 90vh;
+  height: 100vh;
   display: flex;
   background-image: url("img/bg.png");
   background-repeat: no-repeat;
@@ -74,15 +73,15 @@ h2 {
 }
 
 .introduction-container {
-  padding: 60px;
+  padding: 40px;
   grid-area: introduction;
   flex-direction: column;
-  height: 90vh;
+  height: 100vh;
   display: flex;
   width: 50%;
 }
 .introduction-text {
-  width: 70%;
+  width: 80%;
   margin-bottom: 30px;
 }
 .introduction-text h1 {
@@ -90,6 +89,7 @@ h2 {
 }
 .introduction-img {
   width: 50%;
+  margin-top: 5%;
 }
 .hidden {
   display: none;
@@ -313,7 +313,6 @@ h2 {
     grid-template-areas:
       "header header"
       "introduction introduction"
-      "scrollbtn scrollbtn"
       "breadcrumbs breadcrumbs"
       "phases animations"
       "phases animations"
@@ -332,22 +331,10 @@ h2 {
     grid-template-areas:
       "header header"
       "introduction introduction"
-      "scrollbtn scrollbtn"
       "breadcrumbs breadcrumbs"
       "phases animations"
       "phases animations"
       "footer footer";
     grid-row-gap: 0px;
   }
-  .breadcrumbs ul {
-    display: flex;
-    list-style: none;
-    justify-content: space-around;
-    text-align: center;
-    font-size: 30px;
-  }
 
-  .crumb-link {
-    vertical-align: middle;
-  }
-}
