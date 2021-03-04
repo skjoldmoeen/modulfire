@@ -30,6 +30,7 @@ h2 {
   grid-template-areas:
     "header"
     "introduction"
+    "scrollbtn"
     "breadcrumbs"
     "phases"
     "animations"
@@ -48,12 +49,12 @@ h2 {
   background-repeat: no-repeat;
   background-size: cover;
 }
-.header a{
+.header a {
   color: #fff;
   text-decoration: none;
-
 }
-.header h1, h2 {
+.header h1,
+h2 {
   color: #fff;
 }
 .menu {
@@ -72,9 +73,11 @@ h2 {
   background-size: cover;
 }
 
-.introduction a{
+.introduction a {
   color: #515f6d;
   text-decoration: none;
+  margin-left: 50%;
+  margin-right: 50%;
 }
 
 .introduction-container {
@@ -87,17 +90,20 @@ h2 {
 }
 .introduction-text {
   width: 70%;
+  margin-bottom: 30px;
 }
 .introduction-text h1 {
   margin-bottom: 30px;
 }
+.introduction-img {
+  width: 50%;
+}
 .hidden {
   display: none;
 }
-.centerscroll{
+.centerscroll {
+  grid-area: scrollbtn;
   height: 10vh;
-  justify-content: center;
-
 }
 .scrollbutton {
   background-color: transparent;
@@ -109,6 +115,8 @@ h2 {
   outline: none;
   position: relative;
   bottom: -40%;
+  margin-left: 50%;
+  margin-right: 50%;
 }
 
 .fremogtilbage {
@@ -317,6 +325,7 @@ h2 {
     grid-template-areas:
       "header header"
       "introduction introduction"
+      "scrollbtn scrollbtn"
       "breadcrumbs breadcrumbs"
       "phases animations"
       "phases animations"
@@ -335,6 +344,7 @@ h2 {
     grid-template-areas:
       "header header"
       "introduction introduction"
+      "scrollbtn scrollbtn"
       "breadcrumbs breadcrumbs"
       "phases animations"
       "phases animations"
