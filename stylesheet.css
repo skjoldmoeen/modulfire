@@ -316,7 +316,7 @@ input {
   margin-top: 10px;
   font-size: 14px;
   width: 100%;
-    font-family: "Roboto Mono", monospace;
+  font-family: "Roboto Mono", monospace;
 }
 
 textarea {
@@ -326,7 +326,7 @@ textarea {
   font-size: 14px;
   height: 100px;
   width: 100%;
-    font-family: "Roboto Mono", monospace;
+  font-family: "Roboto Mono", monospace;
 }
 
 input[type='submit'] {
@@ -335,7 +335,7 @@ input[type='submit'] {
   background: #A5BB75;
   width: 100%;
   border: solid #ffffff; 2px;
-    font-family: "Roboto Mono", monospace;
+  font-family: "Roboto Mono", monospace;
 }
 
 
@@ -373,3 +373,4 @@ input[type='submit'] {
       "footer footer";
     grid-row-gap: 0px;
   }
+}
