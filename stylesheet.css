@@ -163,7 +163,7 @@ h2 {
   text-align: center;
 }
 .bullet {
-  height: 25%;
+  height: 25;
   width: 45px;
   border-bottom: 9px solid #9c9c9c;
   color: #9c9c9c;
@@ -199,9 +199,6 @@ h2 {
 }
 .red.completed {
   border-bottom: 9px solid #d7734a;
-}
-.go {
-  width: 60px;
 }
 
 .bg-green {
@@ -274,6 +271,8 @@ h2 {
 
 /*Fading animation*/
 .fade {
+  -webkit-animation-name: fade;
+  -webkit-animaiton-duration: 0.5s;
   animation-name: fade;
   animation-duration: 0.5s;
 }
@@ -317,7 +316,7 @@ input {
   margin-top: 10px;
   font-size: 14px;
   width: 100%;
-  font-family: "Roboto Mono", monospace;
+    font-family: "Roboto Mono", monospace;
 }
 
 textarea {
@@ -338,6 +337,8 @@ input[type='submit'] {
   border: solid #ffffff; 2px;
     font-family: "Roboto Mono", monospace;
 }
+
+
 
 /*tablet size*/
 @media screen and (min-width: 768px) {
@@ -372,4 +373,3 @@ input[type='submit'] {
       "footer footer";
     grid-row-gap: 0px;
   }
-}
